@@ -14,23 +14,32 @@
 	<name>videogames</name>
 	<description>CRUD API backend for video game review app</description>
 	<properties>
-		<java.version>17</java.version>
+		<java.version>18.0.2</java.version>
+		<maven.compiler.source>18</maven.compiler.source>
+		<maven.compiler.target>18</maven.compiler.target>
 	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+			<version>3.0.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-mongodb -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-mongodb</artifactId>
+			<version>3.0.4</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-devtools -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
-			<scope>runtime</scope>
-			<optional>true</optional>
+			<version>3.0.4</version>
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
@@ -58,6 +67,7 @@
 			<artifactId>javax.servlet-api</artifactId>
 			<version>4.0.1</version>
 <!--			<scope>provided</scope>-->
+
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/com.google.apis/google-api-services-oauth2 -->
 		<dependency>
@@ -75,6 +85,12 @@
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-web</artifactId>
 			<version>6.0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.24</version>
+			<scope>compile</scope>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.springframework.security/spring-security-config -->
 <!--		<dependency>-->

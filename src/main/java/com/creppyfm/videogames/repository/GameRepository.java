@@ -9,7 +9,5 @@ import java.util.Optional;
 
 @Repository
 public interface GameRepository extends MongoRepository<Game, ObjectId> {
-    Optional<Game> findGamesByGameId (String gameId);
-
     Optional<Game> findGameByGameId(String gameId);
 }
