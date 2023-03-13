@@ -15,7 +15,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @CrossOrigin
 @Configuration
-@ComponentScan({"com.creppyfm.videogames.controller", "com.creppyfm.videogames.repository", "com.creppyfm.videogames.service"})
 public class VideogamesApplication {
 
 	public static void main(String[] args) {
