@@ -1,5 +1,8 @@
 # NotSteam - Backend
 
+![GitHub top language](https://img.shields.io/github/languages/top/creppyfm/video-game-review-BE?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/creppyfm/video-game-review-BE)
+
 ## Backend server for NotSteam.games- a video game review web app that allows users to review popular video games.
 
 <img src="README_Images/home_skyrim.png" alt="Skyrim home page" width="auto">
