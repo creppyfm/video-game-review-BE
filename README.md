@@ -1,7 +1,7 @@
 # NotSteam - Backend
 
 ![GitHub top language](https://img.shields.io/github/languages/top/creppyfm/video-game-review-BE?style=plastic)
-![GitHub last commit](https://img.shields.io/github/last-commit/creppyfm/video-game-review-BE)
+![GitHub last commit](https://img.shields.io/github/last-commit/creppyfm/video-game-review-BE?style=plastic)
 
 ## Backend server for NotSteam.games- a video game review web app that allows users to review popular video games.
 
